@@ -17,6 +17,7 @@ export const Config = {
     }
 } as const;
 
+/** Displays all the app-specific environment variables to the console */
 export function showConfigs() {
     console.log("========================\n Configs\n---------------------");
     (Object.keys(Config) as Array<keyof typeof Config>).forEach(key => {
