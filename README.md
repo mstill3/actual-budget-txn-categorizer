@@ -8,11 +8,11 @@ Uses local LLM to categorize Actual Budget transactions
 
 ## Setup
 
-1. Create a local unchecked `.env` file from the `.env.example` file
+1. Create a local unchecked `.env` file based off of the `.env.example` file
 
-```bash
-cp .env.example .env
-```
+    ```bash
+    cp .env.example .env
+    ```
 
 2. Update `.env` with your own personal values
 
@@ -20,12 +20,12 @@ cp .env.example .env
 
 1. Install dependencies
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 2. Run app
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
