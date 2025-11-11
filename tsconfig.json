@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "build",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ESNext",
+        "typeRoots": [
+            "./src/types",
+            "./node_modules/@types",
+            "./node_modules/@actual-app/api/@types"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
