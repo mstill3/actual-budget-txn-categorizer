@@ -8,7 +8,7 @@ Uses local LLM to categorize Actual Budget transactions
 
 ## Setup
 
-1. Create a local unchecked `.env` file based off of the `.env.example` file
+1. Create a local `.env` file based off the `.env.example` file
 
     ```bash
     cp .env.example .env
