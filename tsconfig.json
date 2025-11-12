@@ -8,9 +8,7 @@
         "strict": true,
         "target": "ESNext",
         "typeRoots": [
-            "./src/types",
-            "./node_modules/@types",
-            "./node_modules/@actual-app/api/@types"
+            "./node_modules/@types"
         ]
     },
     "include": [
