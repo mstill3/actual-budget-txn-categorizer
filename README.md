@@ -1,11 +1,11 @@
 # Actual Budget Transaction Categorizer
 
-Uses local LLM to categorize Actual Budget transactions
+Uses local Large-Language-Models to categorize local Actual Budget transactions
 
 ## Pre-requisites
 
-- Ensure Actual-Budget is running and accessible
-- Ensure Ollama is running and accessible
+- Ensure [Actual-Budget](https://actualbudget.org) is running and accessible
+- Ensure [Ollama](https://ollama.com) is running and accessible
   - Ensure you have at least 1 model installed
 - `node` > v22.12.0
 
