@@ -4,6 +4,9 @@ Uses local LLM to categorize Actual Budget transactions
 
 ## Pre-requisites
 
+- Ensure Actual-Budget is running and accessible
+- Ensure Ollama is running and accessible
+  - Ensure you have at least 1 model installed
 - `node` > v22.12.0
 
 ## Setup
